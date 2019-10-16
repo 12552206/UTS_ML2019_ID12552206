@@ -1,0 +1,43 @@
+Original Question
+Following your graduation, you are hired by a polling organization as a data analyst. As social media has exploded and transformed the way people interact with each other, it would be a great idea to use messages collected from social media to predict how the user can be converted to change his/her support, List 3 challenges to solving this problem. With Reference to existing approaches, describe the design of your system. Discuss the ethical and social consequence of this study.
+
+1.	Introduction
+Social media allows its users to consume, create and share content, many users use this platform to communicate their political viewpoint. As such, there is a wealth of data available on social media. This article explores the ways in which we could utilize these messages collected from social medial to predict how a user can be influenced to change their support. We will also take the ethical and social consequences of this research into consideration. 
+
+2.	Proposed System 
+This system explores users can be converted to change his/her support. First, text analysis should be performed to determine which users are likely to change their support. For the purpose of this study, we should focus on the demographic who are likely to be influenced and direct the messages at them. When composing the messages which are intended to convert their support, we can use the search engine optimized method to construct the messages in such a way to further maximize its reach. 
+2.1	Text Analysis
+To analyze the messages, both sentiment analysis and semantic analysis should be used. Sentiment Analysis usually used in voice of the customer materials uses text analysis techniques to predict the how the customer feels. Semantic analysis on the other hand is less concerned with the emotions behind the post but rather the actual meaning of the words in the post itself. Semantic analysis works by making connections between the words in a message to find its true meaning. 
+2.2 Demographic and Targeting
+Traditionally used by advertising agencies, this method targets people who are more likely to be influenced. This method can be used in polling to maximize the impact of messages shared by a politician by ensuring that it reaches those who would more likely to be interested in a particular matter. For example, if the campaign was on women’s rights, the politicians may choose to target their messages, and have it show up on the feeds of younger females. They can also analyze and predict what particular platform, time and format would be able to maximize their reach. 
+2.3 Search Engine Optimized 
+This technique is generally used by webpages to ensure they will come up as the top search result when people search for relevant keywords. Politician can use this technique when composing their messages to ensure their social media posts come up on the first page of search results to maximize their reach. 
+
+3.	Challenges
+3.1 Colloquial Language 
+As sentiment analysis systems are designed for well-written English, it may not be as effective when being used to analyse social media posts as there may be slang present which the system may not be able to recognise. Moreover, slang is constantly evolving as new ones become popular, older ones phase out, this can make it hard for machines to keep up. 
+3.2	Confirmation Bias 
+It can be difficult to change political views through social media due to Power of Confirmation Bias. People tend to surround themselves with others who share the same view. As a result, their feeds often consist of opinion they already hold which reinforces their views. This challenge can be mitigated by targeting users who are connected to people who hold political views that is different from theirs as they are more likely to be open minded. 
+3.3 Social Media vs Real Life
+Messages from social media may not reflect a user’s actual opinion.  Our predictions are based solely off the user’s online persona. We lack insights into what offline influences may have on their political opinions which could impact the prediction results. Additionally, not all users will openly express their political viewpoints. For the purpose of this research, we will limit the scope to users who express their political views on social media. 
+
+4	Consequences
+Anything to do with politics can be quite sensitive and developing a tool which predicts how a user’s support can be “converted” is quite risky from both a social and ethical viewpoint. Firstly, the development of such tool will have a negative impact on society if it is not properly utilized as it can be used as a means to manipulate voters. Moreover, the act of “converting” a user’s vote is not ethical.  
+
+5	Verdict
+Despite the challenges, there is potential in converting a user’s support through analysis of their posts on social media. As the design of system proposed is similar to existing systems being used in marketing contexts, I believe it will be feasible. However, due to the social and ethical consequences I would not recommend developing such system. 
+
+6. Recommendations 
+For future studies, it would be worth investigating beyond the user’s messages and explore the user’s social networks as well to determine its impacts on a user’s support. 
+ 
+7. References 
+
+Sheng, Y. Subhash, K. 2012, ‘A survey of Prediction Using Social Media’, CoRR, viewed 7 October 2019, < https://arxiv.org/abs/1203.1647>
+
+Rowena.  2018, ‘Impact of Data and Analytics on Social Media 2018’, Towards Data Science, viewed 7 October 2019 <https://towardsdatascience.com/impact-of-data-and-analytics-on-social-media-in-2018-595a3bd4fb60>
+
+Satterfield, H. 2016, ‘How Social Media Affects Politics’, Sysomos, viewed 7 October 2019 <https://sysomos.com/2016/10/05/social-media-affects-politics/>
+
+Stieglitz, Stefan & Dang-Xuan, Linh. (2014). Social Media and Political Communication - A Social Media Analytics Framework. Social Network Analysis and Mining. 3. 1277-1291. 10.1007/s13278-012-0079-3. 
+
+Github link: https://github.com/12552206/UTS_ML2019_ID12552206.git 
